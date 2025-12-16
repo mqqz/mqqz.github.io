@@ -33,7 +33,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1rem;
   gap: 3rem;
   margin-top: 1%;
 }
@@ -74,4 +74,11 @@ a, a:visited, a:hover, a:active {
   font-style: italic;
   margin-top: 1%;
   font-size: 1em;
+}
+
+#pgp {
+  font-family: monospace;
+  font-size: 0.8rem;
+  white-space: pre-wrap;
+  text-align: center;
 }
