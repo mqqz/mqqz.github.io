@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="nav.js"></script>
+    <script src="pgp.js" defer></script>
     <title>Mohamad Alsadhan</title>
   </head>
   <body>
@@ -17,8 +18,13 @@
       </nav>
     </section>
     <section id="pgp">
-      <a href="publickey.pgp">
+      <div class="pgp-toolbar">
+        <a href="publickey.pgp" download>Download .pgp</a>
+        <button id="copy-pgp" type="button" class="pgp-action">Copy key</button>
+      </div>
+      <pre id="pgp-key" class="pgp-block">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
+
 mQINBGk21RYBEAC76E1hc1U55nuBTsz4spGeRJtTODllX6pJSj8qJNLJBgovMaem
 QlkBOyHl6r0rb3IvFI7hNULjC3biMO60SGAl2XcAyyN9rgpNCjp9Ow+YtcNaLEWS
 GfWxr0hNMoMFWRWoc75g1/qKd9MqYnHYOcw7OiqDjkX5j+IbuwU11zqxqx1J0GXt
@@ -67,18 +73,6 @@ d2JvEtou72l7BUg7SXdO4ZOSG2Wl1Dc0wqFSZSprpupXULnt7Tg76638GOpcAmQb
 xurlzcwI1MNX+NiqHOJvnMwTP0gNv4mfVA5wox8jH4xWpEot499tLr58BJq+69aL
 T4zXcGpRXMgQaS1fpO+KfVjSYrOp+ByUfFKoXydy9pw9BRqcvh5R7i8rdb1thKCI
 gJSr9qAEhg0w7Q==
-=U7jH 
+=U7jH
 -----END PGP PUBLIC KEY BLOCK-----
-</a>
-    </section>
-
-    <section id="footer">
-      <div id="icons">
-        <a href="mailto:mo@mosadhan.com">mail</a>.
-        <a href="https://github.com/mqqz">github</a>.
-        <a href="https://www.linkedin.com/in/mohamad-alsadhan/">linkedin</a>.
-        <a href="pgp.html">pgp</a>
-      </div>
-    </section>
-  </body>
-</html>
+</pre>

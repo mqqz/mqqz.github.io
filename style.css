@@ -136,7 +136,30 @@ a:active {
 }
 
 #pgp {
-  font-size: 1.5rem;
-  white-space: pre-wrap;
-  text-align: center;
+  margin-top: 1rem;
+}
+
+.pgp-toolbar {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.pgp-action {
+  border: 1px solid rgb(140, 140, 140);
+  background: transparent;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.pgp-block {
+  margin: 0;
+  padding: 0.75rem;
+  border: 1px solid rgb(110, 110, 110);
+  background: rgba(0, 0, 0, 0.15);
+  overflow-x: auto;
+  white-space: pre;
+  line-height: 1.35;
+  font-size: 0.9rem;
 }
