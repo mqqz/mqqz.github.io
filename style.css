@@ -1,84 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap");
+
+:root {
+  --page-gutter: 5rem;
+}
+
 section {
-  margin-inline: 3%;
+  margin-inline: var(--page-gutter);
   margin-block: 0;
 }
 
 body {
-  background: #323131;;
+  background: #323131;
 }
 
 h1 {
-  font-size: 4rem;
-}
-
-h2 {
   font-size: 2rem;
 }
 
-p {
-  font-size:1.2rem;
-  text-align:justify;
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+h2 {
   font-size: 1.5rem;
-  margin: auto;
 }
 
-#icons{
+p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0.75rem 0 0;
+  padding: 0;
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 1.4rem;
+  position: relative;
+}
+
+.site-title::after {
+  content: "";
+  display: block;
+  width: 75%;
+  border-top: 1px solid rgb(222, 213, 213);
+  margin-top: 0.35rem;
+}
+
+.site-nav ul {
+  display: flex;
+  margin: 0 0 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li {
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.site-nav a[aria-current="page"] {
+  opacity: 0.65;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.section-heading {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 0.65rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid rgba(222, 213, 213, 0.45);
+}
+
+.minimal-separator {
+  border: 0;
+  border-top: 1px solid rgb(120, 120, 120);
+  margin: 1.5rem 0 1rem;
+}
+
+#icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  gap: 3rem;
-  margin-top: 1%;
+  gap: 1rem;
+  margin-top: 0;
 }
 
-#footer{
+#footer {
   position: relative;
   bottom: 0;
   width: 90%;
-  padding: 3%;
+  padding: 3% 3% 1%;
   padding-left: 0;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 i {
-  padding-left: 3%;
+  padding-left: 1%;
 }
 
-a, a:visited, a:hover, a:active {
+a,
+a:visited,
+a:hover,
+a:active {
   color: rgb(222, 213, 213);
 }
 
 * {
-  font-family: monospace;
+  font-family: "Atkinson Hyperlegible Mono", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
-  text-align:justify;
+  font-style: normal;
   color: rgb(207, 205, 205);
 }
 
-#quote{
+#quote {
   text-align: center;
   margin-top: 1%;
   font-size: 1.25em;
 }
 
-#author{
+#author {
   font-size: 1rem;
   text-align: right;
   font-style: italic;
   margin-top: 1%;
-  font-size: 1em;
+  margin-right: 20%;
 }
 
 #pgp {
-  font-family: monospace;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   white-space: pre-wrap;
   text-align: center;
 }
