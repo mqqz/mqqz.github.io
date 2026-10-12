@@ -1,0 +1,92 @@
+{
+  "updated": "2026-10-12",
+  "kernel_archive": "lore.kernel.org",
+  "github": [
+    {
+      "project": "semyonc/xsd-schema",
+      "title": "fix(xsd): reject invalid timezone offsets",
+      "url": "https://github.com/semyonc/xsd-schema/pull/21",
+      "date": "2026-10-10",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "semyonc/xsd-schema",
+      "title": "fix(xsd): apply `RecurseAsIfGroup` to element-to-choice restrictions",
+      "url": "https://github.com/semyonc/xsd-schema/pull/20",
+      "date": "2026-10-09",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "kushaldas/uppsala",
+      "title": "fix: validate inherited simple content and reject child elements",
+      "url": "https://github.com/kushaldas/uppsala/pull/44",
+      "date": "2026-10-03",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "Rust-for-Linux/pin-init",
+      "title": "internal: add tuple struct support in `pin_data` and `pin_init!` (V2)",
+      "url": "https://github.com/Rust-for-Linux/pin-init/pull/155",
+      "date": "2026-09-14",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "Rust-for-Linux/pin-init",
+      "title": "internal: add missing where clause to projection types",
+      "url": "https://github.com/Rust-for-Linux/pin-init/pull/121",
+      "date": "2026-04-23",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "Rust-for-Linux/pin-init",
+      "title": "Cleanup `Zeroable` and `ZeroableOptions`.",
+      "url": "https://github.com/Rust-for-Linux/pin-init/pull/118",
+      "date": "2026-04-22",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "void-linux/void-packages",
+      "title": "New package: openfpgaloader-1.1.1",
+      "url": "https://github.com/void-linux/void-packages/pull/59969",
+      "date": "2026-04-17",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "pola-rs/polars",
+      "title": "fix: Add scalar comparisons for `UInt128` series",
+      "url": "https://github.com/pola-rs/polars/pull/26886",
+      "date": "2026-03-11",
+      "kind": "Merged PR"
+    },
+    {
+      "project": "rust-openssl/rust-openssl",
+      "title": "reintroduce dir_name support for subject_alt_names",
+      "url": "https://github.com/rust-openssl/rust-openssl/pull/2528",
+      "date": "2025-11-25",
+      "kind": "Merged PR"
+    }
+  ],
+  "kernel": [
+    {
+      "project": "Linux kernel",
+      "title": "rust: replace `build_assert!` with `const_assert!`",
+      "url": "https://lore.kernel.org/all/20260523122759.30317-1-mo@sdhn.cc/",
+      "date": "2026-05-23",
+      "kind": "Submitted patch"
+    },
+    {
+      "project": "Linux kernel",
+      "title": "kbuild: host: use single executable for rustc -C linker",
+      "url": "https://lore.kernel.org/all/20260509101939.27108-1-mo@sdhn.cc/",
+      "date": "2026-05-09",
+      "kind": "Submitted patch"
+    },
+    {
+      "project": "Linux kernel",
+      "title": "rust_binder: add and wire Binder tracepoints",
+      "url": "https://lore.kernel.org/all/20260317-rust-binder-trace-v3-0-6fae4fbcf637@sdhn.cc/",
+      "date": "2026-03-17",
+      "kind": "Submitted series"
+    }
+  ]
+}

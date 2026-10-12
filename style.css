@@ -174,3 +174,87 @@ a:active {
   line-height: 1.35;
   font-size: 0.9rem;
 }
+
+#contributions {
+  max-width: 80ch;
+  margin-top: 2rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+#contributions h3 {
+  font-size: inherit;
+  margin: 1rem 0 0.5rem;
+}
+
+.contribution-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contribution-list li {
+  margin-bottom: 0.75rem;
+  overflow-wrap: anywhere;
+}
+
+.contribution-meta,
+.contribution-meta time,
+.contributions-updated {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+#contributions p {
+  text-align: left;
+  font-size: inherit;
+}
+
+#contributions summary {
+  cursor: pointer;
+  padding: 0.5rem 0;
+  color: var(--link);
+}
+
+#contributions summary span {
+  color: inherit;
+}
+
+.contributions-more .when-open,
+.contributions-more[open] .when-closed {
+  display: none;
+}
+
+.contributions-more[open] .when-open {
+  display: inline;
+}
+
+.contribution-sources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#contributions :focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  :root {
+    --page-gutter: 1rem;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .site-nav ul {
+    margin-left: 0;
+  }
+
+  .site-nav li:first-child {
+    padding-left: 0;
+  }
+}
